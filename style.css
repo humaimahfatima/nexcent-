@@ -1,0 +1,68 @@
+:root{
+
+    --primary  : #18191f;
+    --greencolor :#4CAF4F;
+    --greycolor : #717171;
+    --bs-gray-800 :#4D4D4D;
+}
+
+@font-face {
+    font-family:"Inter";
+    src: url(./fonts/Inter_18pt-SemiBold.ttf);
+}
+.blackcolor{
+color: var(--primary) !important;
+}
+.textgreen{
+    color: var(--greencolor)!important;
+}
+.textgreen:hover{
+    color: var(--greencolor)!important;
+}
+/* .textwhite{
+    color: var(white) !important;
+}
+.textwhite :hover{
+color: var(white) !important;
+} */ 
+.bgGreen{
+    background-color: var(--greencolor) !important;
+}
+.bgGreen :hover{
+    background-color: var(--greencolor) !important;
+}
+.font{
+    font-family: Inter;
+}
+.para{
+    color: var(--greycolor) !important;
+}
+.bg-hero{
+  color:  #F5F7FA;
+}
+.client{
+    color: var(--bs-gray-800) !important;
+}
+.customshadow{
+    box-shadow: 0px 2px 4px 0px #ABBED133;
+
+}
+.customgap{
+    gap: 100px;
+}
+
+.footer{
+    background-color: #263238;
+
+}
+@media  screen and (max-width:576px) {
+    .size{
+        width: 50%;
+    }
+}   
+.footer-grey{
+     background-color: #515b60 !important;
+}
+.footer-grey ::placeholder{
+    color: white !important;
+}
